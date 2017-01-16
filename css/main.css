@@ -797,6 +797,21 @@ nav#menu #menu-nav li a:hover {
 	margin-bottom: 5px;
 }
 
+.road-title {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #FFFFFF
+}
+
+.road-content {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.road-content:hover {
+	color: #E0E0E0;
+}
+
 .image-wrap {
 	position: relative;
 	overflow: hidden;

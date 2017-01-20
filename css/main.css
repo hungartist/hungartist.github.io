@@ -27,8 +27,8 @@ body{
 	background:#2F3238;
 	color:#7F8289;
 	font-weight:300;
-	font-size:16px;
-	font-family: 'Titillium Web', sans-serif;
+	font-size:20px;
+	font-family: 'Cormorant Upright', serif;
 	line-height:28px;
 }
 
@@ -113,7 +113,7 @@ hr {
 
 input, button, select, textarea {
 	font-weight: 300;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Cormorant Upright', serif;
 	outline: 0;
 }
 
@@ -174,7 +174,7 @@ pre {
   	white-space: pre-wrap;
   	word-wrap: break-word;
   	word-break: break-all;
-  	font-size: 12px;
+  	font-size: 18px;
   	line-height: 20px;
 }
 
@@ -205,7 +205,7 @@ h6{
 	margin:0 0 20px 0;
 	color:#FFFFFF;
 	font-weight:300;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Cormorant Upright', serif;
 	line-height:1.5em;
 }
 
@@ -218,24 +218,24 @@ h2{
 }
 
 h3{
-	font-size:24px;
+	font-size:26px;
 }
 
 h4{
-	font-size:20px;
+	font-size:24px;
 }
 
 h5{
-	font-size:18px;
+	font-size:22px;
 }
 
 h6{
-	font-size:16px;
+	font-size:20px;
 }
 
 h3.spec {
 	color: #FFFFFF;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 1em;
     margin-bottom: 30px;
@@ -378,7 +378,7 @@ h3.spec {
 
 #home-slider #nextslide i,
 #home-slider #prevslide i {
-	font-size: 16px;
+	font-size: 18px;
 	color: #FFFFFF;
 	position: absolute;
 	left: 50%;
@@ -453,7 +453,7 @@ h3.spec {
 }
 
 #home-slider #nextsection i {
-	font-size: 16px;
+	font-size: 18px;
 	color: #FFFFFF;
 	position: absolute;
 	left: 50%;
@@ -504,7 +504,7 @@ header #logo {
 
 header #logo a {
 	background: url(../img/logo.png) no-repeat;
-	width: 96px;
+	width: 30px;
 	height: 30px;
 	text-indent: -9999px;
 	display: block;
@@ -544,11 +544,11 @@ nav#menu #menu-nav li:first-child {
 
 nav#menu #menu-nav li a {
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 60px;
 	display: block;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 nav#menu #menu-nav li.current a,
@@ -617,8 +617,8 @@ nav#menu #menu-nav li a:hover {
 
 #navigation-mobile li a{
 	display: block;
-	font-size: 16px;
-	text-transform: uppercase;
+	font-size: 18px;
+	/*text-transform: uppercase;*/
 	padding: 20px 0;
 }
 
@@ -683,7 +683,7 @@ nav#menu #menu-nav li a:hover {
 
 .work-nav #filters li a {
 	color: #7F8289;
-	font-size: 16px;
+	font-size: 20px;
 	display: block;
 }
 
@@ -963,7 +963,7 @@ nav#menu #menu-nav li a:hover {
 
 	background: #26292E;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 18px;
     height: auto;
     padding: 15px;
 	margin: 0;
@@ -1164,7 +1164,7 @@ footer {
 
 footer .credits {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 18px;
 	margin-bottom: 0;
 	padding: 20px 0;
 	text-transform: uppercase;

@@ -24,7 +24,7 @@ html, hmtl a{
 }
 
 body{
-	background:#2F3238;
+	background:#2B2B2B;
 	color:#7F8289;
 	font-weight:300;
 	font-size:20px;
@@ -200,10 +200,17 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5{
+	margin:0 0 20px 0;
+	color: #E0E0E0;
+	font-weight:300;
+	font-family: 'Cormorant Upright', serif;
+	line-height:1.5em;
+}
+
 h6{
 	margin:0 0 20px 0;
-	color:#FFFFFF;
+	color: #C2C2C2;
 	font-weight:300;
 	font-family: 'Cormorant Upright', serif;
 	line-height:1.5em;
@@ -234,7 +241,7 @@ h6{
 }
 
 h3.spec {
-	color: #FFFFFF;
+	color: #E0E0E0;
     font-size: 26px;
     font-weight: 300;
     line-height: 1em;
@@ -480,7 +487,7 @@ header .sticky-nav {
 	position: relative;
 	width: 100%;
 	height: 60px;
-	background: #26292E;
+	background: #2B2B2B;
 	z-index: 1001;
 
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -543,7 +550,7 @@ nav#menu #menu-nav li:first-child {
 }
 
 nav#menu #menu-nav li a {
-	color: #FFFFFF;
+	color: #C2C2C2;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 60px;
@@ -551,11 +558,14 @@ nav#menu #menu-nav li a {
 	/*text-transform: uppercase;*/
 }
 
-nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
-	color: #DEA228;
+	color: #FFFFFF;
 }
 
+nav#menu #menu-nav li.current a {
+	color: #FFFFFF;
+	/*text-decoration: underline;*/
+}
 
 /* ==================================================
    Mobile Navigation
@@ -603,8 +613,8 @@ nav#menu #menu-nav li a:hover {
 	display: none;
 	text-align: center;
 	width: 100%;
-	background: #26292E;
-	border-bottom: 1px solid #2F3238;
+	background: #2B2B2B;
+	border-bottom: 1px solid #2B2B2B;
 	position: relative;
 	float: left;
 	z-index: 9999;
@@ -612,14 +622,18 @@ nav#menu #menu-nav li a:hover {
 
 #navigation-mobile li {
 	list-style: none;
-	border-top: 1px solid #2F3238;
+	border-top: 1px solid #2B2B2B;
 }
 
 #navigation-mobile li a{
 	display: block;
 	font-size: 18px;
-	/*text-transform: uppercase;*/
 	padding: 20px 0;
+	color: #C2C2C2;
+}
+
+#navigation-mobile li a:hover {
+	color: #FFFFFF;
 }
 
 
@@ -628,14 +642,14 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
+	background: #2B2B2B;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
 }
 
 .page-alternate {
-	background: #26292E;
+	background: #2B2B2B;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
@@ -682,8 +696,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a {
-	color: #7F8289;
-	font-size: 20px;
+	color: #C2C2C2;
+	font-size: 18px;
 	display: block;
 }
 
@@ -692,7 +706,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a.selected {
-	color: #DEA228;
+	color: #FFFFFF;
+	text-decoration: underline;
 }
 
 #thumbs {
@@ -776,36 +791,35 @@ nav#menu #menu-nav li a:hover {
    Exhibition Section
 ================================================== */
 
-.profile-name {
+.exhibition-name {
 	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+.exhibition-name:hover {
+	color: #E0E0E0;
 }
 
 .biography-name {
 	margin-bottom: 15px;
 }
 
-.profile-description {
+.biography-detail {
 	margin-bottom: 10px;
 }
 
-.profile-title {
-	margin-bottom: 5px;
-	color: #FFFFFF
-}
-
-.profile-content {
-	margin-bottom: 5px;
-}
-
 .road-title {
-	margin-top: 10px;
-	margin-bottom: 5px;
-	color: #FFFFFF
+	padding-top: 10px;
+	margin-bottom: 10px;
+	color: #DEA228;
+	font-size: 22px;
 }
 
 .road-content {
 	margin-top: 10px;
 	margin-bottom: 5px;
+	color: #B8B8B8;
+	font-size: 18px;
 }
 
 .road-content:hover {
@@ -1158,7 +1172,7 @@ footer {
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: #26292E;
+	background: #292929;
 	text-align: center;
 	z-index: 99;
 }
@@ -1217,7 +1231,7 @@ footer .credits {
 
 #jpreOverlay,
 #jSplash {
-	background-color: #2F3238;
+	background-color: #2B2B2B;
 	position: absolute;
 	width: 100%;
 	height: 100%;

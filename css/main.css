@@ -885,6 +885,7 @@ nav#menu #menu-nav li a:hover {
 .social-icons {
 	margin: 0;
 	padding: 0;
+	margin-bottom: 15px;
 }
 
 .social-icons li {
@@ -902,7 +903,7 @@ nav#menu #menu-nav li a:hover {
 	line-height: 1em;
 	width: 16px;
 	height: 16px;
-
+	
 	opacity: 0.3;
 	filter: alpha(opacity=30);
 

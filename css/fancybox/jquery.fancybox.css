@@ -26,7 +26,7 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #2F3238;
+	background: #2B2B2B;
 	color: #7F8289;
 	text-shadow: none;
 	-webkit-border-radius: 0;
@@ -102,8 +102,8 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
 	z-index: 9000;
 	background-image: none;
@@ -120,8 +120,8 @@
 .fancybox-close i {
 	left: 50%;
 	top: 50%;
-	margin: -11px 0 0 -11px;
-	font-size: 22px;
+	margin: -8px 0 0 -8px;
+	font-size: 16px;
 	line-height: 1em;
 	position: absolute;
 	color: #FFFFFF;
@@ -129,7 +129,7 @@
 
 .fancybox-close:hover {
 	opacity: 1;
-	background-color:#DEA228;
+	background-color:transparent;
 }
 
 .fancybox-nav {
@@ -156,8 +156,8 @@
 .fancybox-nav span {
 	position: absolute;
 	top: 50%;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	margin-top: -25px;
 	cursor: pointer;
 	z-index: 8040;
@@ -175,8 +175,8 @@
 .fancybox-prev span i {
 	left: 50%;
 	top: 50%;
-	margin: -15px 0 0 -17px;
-	font-size: 30px;
+	margin: -12px 0 0 -13px;
+	font-size: 24px;
 	line-height: 1em;
 	position: absolute;
 	color: #FFFFFF;
@@ -186,8 +186,8 @@
 .fancybox-next span i {
 	left: 50%;
 	top: 50%;
-	margin: -15px 0 0 -15px;
-	font-size: 30px;
+	margin: -12px 0 0 -12px;
+	font-size: 24px;
 	line-height: 1em;
 	position: absolute;
 	color: #FFFFFF;
@@ -195,7 +195,7 @@
 
 .fancybox-nav:hover span {
 	opacity: 1;
-	background-color:#DEA228;
+	background-color:transparent;
 }
 
 .fancybox-tmp {
@@ -249,9 +249,9 @@
 }
 
 .fancybox-opened .fancybox-title h4{
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: 300;
-	margin-bottom: 10px;	
+	margin-bottom: 0;	
 }
 
 .fancybox-opened .fancybox-title p{
